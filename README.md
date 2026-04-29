@@ -1,4 +1,4 @@
-# PCB Defect Data using Deep Learning 🔍📊
+# PCB Defect Data using Deep Learning 
 
 This project is a **Deep Learning-based PCB Defect Classification System** designed to automatically identify manufacturing defects in Printed Circuit Boards (PCB) from image data. The system uses custom CNN and ResNet-style architectures to classify multiple PCB defect categories with high accuracy.
 
