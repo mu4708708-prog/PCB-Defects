@@ -4,7 +4,7 @@ This project is a **Deep Learning-based PCB Defect Classification System** desig
 
 ---
 
-## 🗂 Dataset Structure
+## Dataset Structure
 
 <pre>
 pcb_defect_detection.ipynb
@@ -27,7 +27,7 @@ PCB_DATASET/
 
 ---
 
-## 📥 Download Dataset
+## Download Dataset
 
 Due to GitHub file size limitations, the dataset can be downloaded separately from Kaggle:
 
@@ -38,7 +38,7 @@ After downloading, place the dataset folder in your project root directory so th
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * Python 3
 * PyTorch
@@ -52,7 +52,7 @@ After downloading, place the dataset folder in your project root directory so th
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 
 ### Custom CNN
 
@@ -75,7 +75,7 @@ After downloading, place the dataset folder in your project root directory so th
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model      | Accuracy   | Precision | Recall | F1-Score | Macro AUC  |
 | ---------- | ---------- | --------- | ------ | -------- | ---------- |
@@ -84,7 +84,7 @@ After downloading, place the dataset folder in your project root directory so th
 
 ---
 
-## 📈 Training Visualizations
+## Training Visualizations
 
 Training and validation graphs were plotted to monitor:
 
@@ -101,7 +101,7 @@ Additional Visualizations:
 
 ---
 
-## ✅ Evaluation
+## Evaluation
 
 Final model performance was evaluated using:
 
@@ -115,17 +115,17 @@ Early stopping and regularization were used to improve generalization.
 
 ---
 
-## 📂 Run Notebook
+## Run Notebook
 
 The complete implementation is available in:
 
-📄 **`pcb_defect_detection.ipynb`**
+ **`pcb_defect_detection.ipynb`**
 
 Ensure dataset paths are updated correctly before running.
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Input Image Size: `224x224`
 * Dataset Augmentation Applied
